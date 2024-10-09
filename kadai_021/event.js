@@ -3,7 +3,7 @@ const Text = document.getElementById('text');
 
 Btn.addEventListener('click', () => {
   setTimeout(() => {
-    document.getElementById('text').textContent = "ボタンをクリックしました";
+    Text.textContent = "ボタンをクリックしました";
 	}, 2000);
 });
 
